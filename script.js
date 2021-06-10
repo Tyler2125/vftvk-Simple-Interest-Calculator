@@ -9,10 +9,10 @@ if (principal<=0){
     alert("Enter a Positive number");
     document.getElementById("principal").focus()
 }
-  document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\> you will receive an amount of "+ interest+",\<br\> in the year "+year+"\<br\>"  
+  document.getElementById("result").innerHTML="If you deposit "+principal +",\<br\> you will receive an amount of "+ interest+",\<br\> in the year "+year+"\<br\>"  
 }
         function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }
