@@ -9,7 +9,8 @@ if (principal<=0){
     alert("Enter a Positive number");
     document.getElementById("principal").focus()
 }
-  document.getElementById("result").innerHTML="If you deposit "+principal +",\<br\> you will receive an amount of "+ interest+",\<br\> in the year "+year+"\<br\>"  
+    else{
+  document.getElementById("result").innerHTML="If you deposit "+principal +",\<br\> you will receive an amount of "+ interest+",\<br\> in the year "+year+"\<br\>"  }
 }
         function updateRate() 
 {
